@@ -17,17 +17,19 @@ function Home() {
   const laptopRef = useRef<LottieRefCurrentProps>(null);
 
   return (
-    <div className="flex flex-col items-center">
-      <h1 style={{ margin: "auto" }}>
+    <div className="flex flex-col items-center px-4 max-w-full overflow-x-hidden">
+      <h1 className="w-full text-center my-4 px-2" style={{ overflowWrap: "break-word", hyphens: "auto"}}>
         <TextGenerateEffect words={words} />
       </h1>
-      <p>
+      <p className="text-center w-full mb-4">
         <TextGenerateEffect words={words1} />
       </p>
       <div
         style={{
-          width: "50%",
-          height: "350px",
+          width: "100%",
+          maxWidth: "500px",
+          height: "auto",
+          aspectRatio: "16/9",
           overflow: "hidden",
           position: "relative",
           margin: "auto",
@@ -35,12 +37,10 @@ function Home() {
       >
         <Lottie
           style={{
-            width: "113%",
-            height: "105%",
-            top: "-50%",
+            width: "100%",
+            height: "100%",
             margin: "auto",
             display: "block",
-            bottom: "-50%",
           }}
           onComplete={() => {}}
           loop={false}

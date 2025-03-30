@@ -7,9 +7,10 @@ const textVariant = {
 
 function About() {
   return (
-    <div>
-      <div>
+    <div className="pt-16 px-4 max-w-2xl mx-auto">
+      <div className="text-center mb-8">
         <motion.h1
+          className="text-3xl md:text-4xl font-bold"
           initial={{ y: 25, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeInOut" }}
@@ -18,7 +19,7 @@ function About() {
         </motion.h1>
       </div>
 
-      <div>
+      <div className="space-y-4 text-left">
         <motion.p variants={textVariant} initial="hidden" animate="visible">
           <span className="text-blue-500 text-xl" style={{color: "#626ef6"}}>
             <i className="fas fa-graduation-cap"></i>

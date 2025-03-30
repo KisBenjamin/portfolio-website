@@ -50,6 +50,7 @@
     
     .nav-links {
       gap: 0.8rem;
+      flex-wrap:wrap;
     }
 
     .logo {
