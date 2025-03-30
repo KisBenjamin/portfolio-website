@@ -18,7 +18,7 @@ A clean and interactive portfolio to showcase my work and skills.
 - Framer Motion • Lottie Animations • React Router
 
 ## 🌍 Live Demo
-🔗 [kisbenjamin.github.io/portfolio-website](http://www.kisbenjamin.site/)
+🔗 [www.kisbenjamin.site](http://www.kisbenjamin.site/)
 
 ---
 Built with passion and curiosity. ✨
